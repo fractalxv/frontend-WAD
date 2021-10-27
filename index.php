@@ -15,12 +15,10 @@
 </head>
 
 <body>
-
   
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-    <a class="navbar-brand" href="#">FancyWeb</a>
-
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(39, 39, 39) " id="navbar">
+    <a class="navbar-brand" href="../kuis/index.php"><img src="https://cdn2.scratch.mit.edu/get_image/gallery/26768711_170x100.png" width="50" </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,20 +32,10 @@
           <a class="nav-link" href="#about_us">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#demo">What we've done</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#contact_us">Contact Us</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            More Options
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="profile_doc/Resumes.zip" download>Download Our Resumes</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+         
         </li>
         <li class="nav-item">
           <button type="button" class="btn btn-link" data-toggle="modal" data-target="#signup">Sign up</button>
@@ -62,45 +50,38 @@
 
   <div class="pimg1" id="home">
     <div class="ptext">
-      <span class="border">
-        Welcome to Our FancyWeb
-      </span>
-    </div>
-  </div>
-
-  <div class="pimg2">
-    <div class="ptext">
       <span class="border trans">
-        Brightest Stars:
+        K U C I N G T E R B A N G
+        <br><br> the game company
       </span>
+      <br>
+
     </div>
   </div>
-
   
   <!-- Split profile with hover -->
   <div class="container_split" id="about_us">
     <div class="split left">
-      <h1 class = "split_font">Zihe Deng</h1>  
-      <h1 class = "split_font_fd">Add Into here
-        <br>Next Line...
+      <h1 class = "split_font">Our Past Projects</h1>  
+      <h1 class = "split_font_fd">On going projects
+        <br> and collaborations
       </h1>
-      <a href="personal_page/zihe.php" class="button_split">Read More</a>
+      <a href="personal_page/a1.php" class="button_split">Read More</a>
     </div>
     <div class="split right">
-      <h1 class = "split_font">Zijian Guan</h1>  
-      <h1 class = "split_font_fd">Add Into here
-        <br>Next Line...
+      <h1 class = "split_font">Our Teams</h1>  
+      <h1 class = "split_font_fd">our notable game artsts
+        <br>and programmers
       </h1>
-      <a href="personal_page/zijian.php" class="button_split">Read More</a>
+      <a href="personal_page/a2.php" class="button_split">Read More</a>
     </div>
   </div>
 
   
   <section class="section section-dark">
     <h1>
-      Highlight of our past projects:
+      Highlight of our teams & Projects:
     </h1>
-  <!-- Demo goes here: -->
   <!--Carousel Wrapper-->
   <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
@@ -122,12 +103,12 @@
             <div class="row justify-content-center h-100">
               <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 hidden-md-down" id="yellow">
                <p class="ver">
-               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-               </p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
               </div>
               <div class="col-sm-4 col-md-5 col-lg-6 col-xl-7" id="green">
                 <!-- Showing demo... -->
-                <img src="img/background/city3.jpg">
+                <img src="img/background/game2.jpg">
                 <!-- Video & Text Source -->
                 <!-- <video class="video" autoplay loop muted>
                   <source src='img/background/demo_vid.mp4' type="video/mp4" />
@@ -138,13 +119,6 @@
           <div class="mask rgba-indigo-light"></div>
         </div>
 
-        <!--Caption-->
-        <!-- <div class="carousel-caption">
-          <div class="animated fadeInDown">
-            <h4 class="h3-responsive">Past Project</h4>
-          </div>
-        </div> -->
-        <!--Caption-->
       </div>
       <!-- /.First slide -->
 
@@ -155,53 +129,19 @@
           <div class="container-fluid h-100 bg-dark text-white second">
             <div class="row justify-content-center h-100">
               <div class="col-sm-4 col-md-4 col-lg-5 col-xl-7" id="yellow">
-               <video class="video" autoplay loop muted>
-                  <source src='img/background/demo_vid.mp4' type="video/mp4" />
+                <!-- Showing demo... -->
+                <img src="img/background/c2.jpg">
                 </video>
               </div>
               <div class="col-sm-8 col-md-8 col-lg-7 col-xl-5 hidden-md-down" id="green">
                 <p>
-               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-               </p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
               </div>
             </div>
           </div>
         </div>
-
-        <!--Caption-->
-        <!-- <div class="carousel-caption">
-          <div class="animated fadeInDown">
-            <h3 class="h3-responsive">Project Demo here</h3>
-          </div>
-        </div> -->
-        <!--Caption-->
-      </div>
       <!-- /.Second slide -->
-
-      <!-- Third slide -->
-      <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-          <!--3rd project slid-->
-          <div class="container-fluid h-100 bg-dark text-white">
-            <div class="row justify-content-center h-100">
-              <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 hidden-md-down" id="yellow">
-               <p>
-               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-               </p>
-              </div>
-              <div class="col-sm-4 col-md-5 col-lg-6 col-xl-7 hidden-md-down" id="green">
-                <!-- Showing demo... -->
-                <img src="img/background/city1.jpg">
-                <!-- Video & Text Source -->
-                <!-- <video class="video" autoplay loop muted>
-                  <source src='img/background/demo_vid.mp4' type="video/mp4" />
-                </video> -->
-              </div>
-            </div>
-          </div>
-          <div class="mask rgba-black-strong"></div>
-        </div>
 
         <!--Caption-->
         <!-- <div class="carousel-caption">
@@ -239,33 +179,6 @@
   </div>
 </div>
 
-
-
-
-
-
-<!-- Circle Img Intro -->
-  <!-- <div class = "container">
-    <div class = "row">
-      <div class="col-lg-4">
-        <img src="img/about_us/zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
-        <h2>Zihe Deng</h2>
-        <h5>Electronic Engineer</h5>
-        <p>Curent student in SJSU pursuing Master Electronic Engineering degree.</p>
-        <p>Great team worker with experience in programming Python and HTML.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-
-      <div class="col-lg-4">
-        <img src="img/about_us/zihe.jpg" class="rounded-circle" alt="Cinque Terre" height="140" weight="140">
-        <h2>Zijian Guan</h2>
-        <h5>Software Engineer</h5>
-        <p>Curent student in SJSU pursuing Master Software Engineering degree.</p>
-        <p>Great team worker with experience in programming Python and HTML.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-  </div> -->
 
   <!-- Modal SignUp -->
   <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
@@ -393,7 +306,7 @@
 
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+  <div class="container ">
 
     <!-- Grid row -->
     <div class="row">
@@ -406,86 +319,98 @@
   </div>
   <!-- Footer Links -->
 
-  <div class="pimg3">
-    <div class="ptext_footer">
+  <div class="pimg3">>
       <div class = "container">
-        <div class = "row">
-          <div class = "col-6">
-            <ul class="list-unstyled list-inline text-center">
-              <h3 style="color:#FFFFFF;">Zihe Deng's</h3>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/dengtyler/" class="btn-floating btn-gplus mx-1">
-                  <i class="fab fa-linkedin-in fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/tylergithub" class="btn-floating btn-li mx-1">
-                  <i class="fab fa-github fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.youtube.com/channel/UCLIevMiSLVJjg4ce9M1M3jw?view_as=subscriber" class="btn-floating btn-dribbble mx-1">
-                  <i class="fab fa-youtube fa-2x" style="color:#FF0000;"> </i>
-                </a>
-              </li>
-            </ul>
-          </div>
+<div class="row">
 
-          <div class = "col-6">
-            <ul class="list-unstyled list-inline text-center">
-              <h3 style="color:#FFFFFF;">Contact Info</h3>
-              <li class="list-inline-item" style="color:#FFFFFF;">
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="fas fa-home mr-3"></i> San Jose, CA 95008, US</p>
-                </a>
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="fas fa-envelope mr-3"></i> zihe.deng@sjsu.com</p>
-                </a>
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="fas fa-phone mr-3"></i> + 01 425 626 9214</p>
-                </a>
-              </li>
-            </ul>
-          </div>
+  <!--Grid column-->
+  <div class="col-lg-5 mb-4">
+
+    <!--Form with header-->
+    <div class="card">
+
+      <div class="card-body">
+        <!--Header-->
+        <div class="form-header blue accent-1">
+          <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+        </div>
+        <!--Body-->
+        <div class="md-form">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form-name" class="form-control">
+          <label for="form-name">Your name</label>
         </div>
 
-        <hr>
+        <div class="md-form">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="text" id="form-email" class="form-control">
+          <label for="form-email">Your email</label>
+        </div>
 
-        <div class = "row">
-          <div class = "col-6">
-            <ul class="list-unstyled list-inline text-center">
-              <h3 style="color:#FFFFFF;">Zijian Guan's</h3>
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/profile.php?id=100007270539407" class="btn-floating btn-fb mx-1">
-                  <i class="fab fa-facebook-f fa-2x" style="color:#00FFE6;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/zijianguan0204" class="btn-floating btn-github mx-1">
-                  <i class="fab fa-github fa-2x" style="color:#00FFE6;"> </i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/zijian-guan-4151a6137/" class="btn-floating btn-li mx-1">
-                  <i class="fab fa-linkedin-in fa-2x" style="color:#00FFE6;"> </i>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="md-form">
+          <i class="fas fa-tag prefix grey-text"></i>
+          <input type="text" id="form-Subject" class="form-control">
+          <label for="form-Subject">Subject</label>
+        </div>
 
-          <div class = "col-6">
-            <ul class="list-unstyled list-inline text-center">
-              <h3 style="color:#FFFFFF;">Contact Info</h3>
-              <li class="list-inline-item" style="color:#FFFFFF;">
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="fas fa-home mr-3"></i> San Jose, CA 95129, US</p>
-                </a>
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="fas fa-envelope mr-3"></i> zijian.guan@sjsu.com</p>
-                </a>
-                <a class="btn-floating btn-fb mx-1">
-                  <i class="fas fa-phone mr-3"></i> + 01 559 387 9948</p>
-                </a>
+        <div class="md-form">
+          <i class="fas fa-pencil-alt prefix grey-text"></i>
+          <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+          <label for="form-text">Icon Prefix</label>
+        </div>
+
+        <div class="text-center mt-4">
+          <button class="btn btn-light-blue">Submit</button>
+        </div>
+
+      </div>
+
+    </div>
+    <!--Form with header-->
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-lg-7">
+
+    <!--Google map-->
+    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+      <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <br>
+    <!--Buttons-->
+    <div class="row text-center">
+      <div class="col-md-4">
+        <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+        <p>San Francisco, CA 94126</p>
+        <p>United States</p>
+      </div>
+
+      <div class="col-md-4">
+        <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+        <p>+ 01 234 567 89</p>
+        <p>Mon - Fri, 8:00-22:00</p>
+      </div>
+
+      <div class="col-md-4">
+        <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+        <p>info@gmail.com</p>
+        <p>sale@gmail.com</p>
+      </div>
+    </div>
+
+  </div>
+  <!--Grid column-->
+
+</div>
+
+</section>
+<!--Section: Contact v.1-->
+
+
               </li>
             </ul>
           </div>
@@ -494,12 +419,6 @@
       </div>
     </div>
   </div>
-</div>
-
-
-
-<div class="footer-copyright text-center py-3">© 2020 Copyright:
-  <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
 </div>
 
 

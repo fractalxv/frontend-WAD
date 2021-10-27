@@ -124,19 +124,19 @@ p.ver {
 
 .pimg3{
 	opacity: 0.85;
-	background-image: url('../img/background/footer.jpg');
+	background-image: url('../img/background/c3.jpg');
 	min-height:430px;
 }
 
 .pimg_zijian_1{
 	opacity: 1.0;
-	background-image: url('../img/person/zijian_cover.jpg');
+	background-image: url('../img/background/c3.jpg');
 	min-height:100vh;
 }
 
 .pimg_zihe_1{
 	opacity: 1.0;
-	background-image: url('../img/person/zihe_cover.JPG');
+	background-image: url('../img/person/a1.JPG');
 	min-height:100vh;
 }
 
@@ -174,7 +174,7 @@ p.ver {
 	top:10%;
 	width:100%;
 	text-align: center;
-	color:#000;
+	color:rgb(0, 0, 0);
 	font-size:50px;
 	letter-spacing:5px;
 	text-transform: uppercase;
@@ -187,7 +187,7 @@ p.ver {
 	top:20%;
 	width:100%;
 	right: 20%;
-	color:#000;
+	color:rgb(255, 255, 255);
 	font-size:70px;
 	letter-spacing:5px;
 	text-transform: uppercase;
@@ -295,7 +295,7 @@ h1.split_font_fd{
 }
 .split.left {
 	left: 0;
-	background: url('../img/person/zihe_split.jpg') center center no-repeat;
+	background: url('../img/person/a1.jpg') center center no-repeat;
 	background-size: cover;
 }
 .split.left:before {
@@ -307,7 +307,7 @@ h1.split_font_fd{
 }
 .split.right {
 	right: 0;
-	background: url('../img/person/zijian_split.jpg') center center no-repeat;
+	background: url('../img/person/a2.jpg') center center no-repeat;
 	background-size: cover;
 }
 .split.right:before {
@@ -393,7 +393,19 @@ h1.split_font_fd{
   font-size: 55px;
   color: red;
 }
-
+.map-container-6{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	}
+	.map-container-6 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
 /*p.carousel-caption {
 	font-size: 3rem;
 }*/
