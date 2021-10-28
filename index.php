@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/1ab8dfc894.js" crossorigin="anonymous"></script>
 
-  <title>Fancy Web</title>
+  <title>NyanCorp</title>
 </head>
 
 <body>
@@ -51,9 +51,10 @@
   <div class="pimg1" id="home">
     <div class="ptext">
       <span class="border trans">
-        K U C I N G T E R B A N G
-        <br><br> the game company
+          Nyan.Corp  
       </span>
+      <br><br>
+      <span class="badge badge-pill badge-dark">We make games</span></h5>
       <br>
 
     </div>
@@ -62,7 +63,7 @@
   <!-- Split profile with hover -->
   <div class="container_split" id="about_us">
     <div class="split left">
-      <h1 class = "split_font">Our Past Projects</h1>  
+      <h1 class = "split_font">Our Projects</h1>  
       <h1 class = "split_font_fd">On going projects
         <br> and collaborations
       </h1>
@@ -80,7 +81,9 @@
   
   <section class="section section-dark">
     <h1>
-      Highlight of our teams & Projects:
+      Highlight of our Teams & Projects
+      <br>
+      from Nyan.Corp
     </h1>
   <!--Carousel Wrapper-->
   <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
@@ -142,19 +145,6 @@
           </div>
         </div>
       <!-- /.Second slide -->
-
-        <!--Caption-->
-        <!-- <div class="carousel-caption">
-          <div class="animated fadeInDown">
-            <h3 class="h3-responsive">Project Demo here</h3>
-          </div>
-        </div> -->
-        <!--Caption-->
-      </div>
-      <!-- /.Third slide -->
-    </div>
-    <!--/.Slides-->
-    <!--Controls-->
     <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -332,7 +322,7 @@
       <div class="card-body">
         <!--Header-->
         <div class="form-header blue accent-1">
-          <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+          <h3><i class="fas fa-envelope"></i>CONTACT US</h3>
         </div>
         <!--Body-->
         <div class="md-form">
@@ -356,7 +346,7 @@
         <div class="md-form">
           <i class="fas fa-pencil-alt prefix grey-text"></i>
           <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-          <label for="form-text">Icon Prefix</label>
+          <label for="form-text"></label>
         </div>
 
         <div class="text-center mt-4">
@@ -421,6 +411,9 @@
   </div>
 </div>
 
+<div class="footer-copyright text-center py-3">made with ❤️ by myra
+  <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+</div>
 
 
 </footer>

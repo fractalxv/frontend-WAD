@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <script src="https://kit.fontawesome.com/1ab8dfc894.js" crossorigin="anonymous"></script>
 
-  <title>Fancy Web</title>
+  <title>Our Projects</title>
 </head>
 
 
@@ -260,7 +260,7 @@ Network: Broadband Internet Connection.</p>
 
 
 
-<div class="footer-copyright text-center py-3">© 2020 Copyright:
+<div class="footer-copyright text-center py-3">made with ❤️ by myra
   <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
 </div>
 
